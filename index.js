@@ -1,11 +1,11 @@
 var request = require("request");
 
-var Upbit = function()
+var Lbank = function()
 {
 	this.url = "https://api.lbank.info/v1/";
 }
 
-Upbit.prototype.getTrades =  function (market, cb, count) {
+Lbank.prototype.getTrades =  function (market, cb, count) {
 	var path, url, qs;
 
 	path = "trades.do";
@@ -39,4 +39,5 @@ Upbit.prototype.getTrades =  function (market, cb, count) {
 }
 
 
-module.exports = Upbit;
+module.exports = Lbank;
+
