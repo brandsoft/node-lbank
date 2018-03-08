@@ -1,0 +1,25 @@
+{
+  "name": "lbank-node",
+  "version": "0.0.1",
+  "description": "A nodejs wrapper for the lbank api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandsoft/node-lbank.git"
+  },
+  "keywords": [
+    "lbank"
+  ],
+  "author": "sk.asik@brandsoftonline.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandsoft/node-lbank/issues"
+  },
+  "homepage": "https://github.com/brandsoft/node-lbank#readme",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
